@@ -26,7 +26,7 @@
    ```
 5. **Clone the Repository**
    ```bash
-   git clone https://github.com/ARYANSONIOP/TestingMusicRepo && cd TestingMusicRepo
+   git clone https://github.com/ARYANSONIOP/YukkiMusicBot && cd YukkiMusicBot
    ```
 6. **Install Requirements**
    ```bash
