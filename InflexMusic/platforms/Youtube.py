@@ -7,8 +7,8 @@ import yt_dlp
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from youtubesearchpython.__future__ import VideosSearch
-from ShrutiMusic.utils.database import is_on_off
-from ShrutiMusic.utils.formatters import time_to_seconds
+from InflexMusic.utils.database import is_on_off
+from InflexMusic.utils.formatters import time_to_seconds
 import glob
 import random
 import logging
@@ -20,7 +20,7 @@ VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
 API_KEY = getenv("API_KEY", None)
 
 def cookie_txt_file():
-    cookie_dir = "ShrutiMusic/cookies"
+    cookie_dir = "InflexMusic/cookies"
     if not os.path.exists(cookie_dir):
         return None
     cookies_files = [f for f in os.listdir(cookie_dir) if f.endswith(".txt")]
