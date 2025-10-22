@@ -3,7 +3,6 @@ import os
 import re
 import json
 from typing import Union
-
 import youtube_dlp
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
@@ -18,7 +17,7 @@ import random
 import logging
 
 def cookie_txt_file():
-    cookie_dir = "ShrutiMusic/cookies"
+    cookie_dir = "InflexMusic/cookies"
     if not os.path.exists(cookie_dir):
         print("Cookie directory not found!")
         return None
